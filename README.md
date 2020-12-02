@@ -21,3 +21,11 @@ Deliverables
 1. Create a 15-minute insights & recommendations presentation that you will present to the client team
 2. Include limitations of the current data set
 3. Include an appendix with assumptions, methods and relevant statistical output
+
+## Plan
+
+1. brush up on A/B Testing
+2. exploratory analysis with perhaps visualization
+3. answer prompts
+4. potential alteryx, app
+5. work on presentation
