@@ -27,5 +27,7 @@ Deliverables
 1. brush up on A/B Testing
 2. exploratory analysis with perhaps visualization
 3. answer prompts
+    * cluster customers that responded well to the msg and those who didn't
+    * make custom outputs for those conditions
 4. potential alteryx, app
 5. work on presentation
