@@ -22,6 +22,7 @@ Deliverables
 2. Include limitations of the current data set
     * It would be good to have the control group stats to verify the mean and standard deviations line up with our test group
     * Small error in the dataset key. 'Purchase Product' 1-4 says null if > x products purchased. It should say < x
+    * Data is only from a couple months in two years, can't see seasonality well
 3. Include an appendix with assumptions, methods and relevant statistical output
     * SEM is paid ad search result, SEO is organic search result
 
