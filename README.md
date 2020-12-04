@@ -20,15 +20,21 @@ these questions.
 Deliverables
 1. Create a 15-minute insights & recommendations presentation that you will present to the client team
 2. Include limitations of the current data set
+    * It would be good to have the control group stats to verify the mean and standard deviations line up with our test group
+    * Small error in the dataset key. 'Purchase Product' 1-4 says null if > x products purchased. It should say < x
 3. Include an appendix with assumptions, methods and relevant statistical output
+    * SEM is paid ad search result, SEO is organic search result
 
 ## Plan
 
 1. brush up on A/B Testing
 2. exploratory analysis with perhaps visualization
+    i. convert start time and end time to visit time
+    conversion (orders/unique visitors) is the goal so 
 3. answer prompts
     * cluster customers that responded well to the msg and those who didn't
     * * Actually it seems like a much simpler classification problem. Classify users as one who would click yes vs those who would not
     * make custom outputs for those conditions
+    * * careful what you may be able to predict on, you can't decide to administer the B-test after using factors from your B-test
 4. potential alteryx, app
 5. work on presentation
