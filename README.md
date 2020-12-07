@@ -19,10 +19,32 @@ The client has sent you a data set from those customers who were in Recipe B, â€
 these questions.
 Deliverables
 1. Create a 15-minute insights & recommendations presentation that you will present to the client team
+    * I believe the obstrusiveness of the popup is what is driving away 20% of conversions. I would recommend a less in-your-face 
+    suggestion such as displaying it alongside cart information instead of a dedicated popup that needs to be addressed.
+    * * if we take a look at how REI does it here, we can see they take every opportunity to display their recommender system (bottom of shop, cart add, cart itself)
+    ![C:\Users\jonma\Programming\outdoor_AB\img\REI-upsell-12-5_Trim.gif]
+    You might be targeting just the premier line right now, but if we tailor it based on the customer, you'll see sales respond.
+    For this you can use:
+    Collaborative filtering
+        for collab based filtering, I consulted on a project that used AWS ElasticSearch to great results
+        ![https://towardsdatascience.com/how-to-build-a-recommendation-engine-quick-and-simple-aec8c71a823e]
+    Content-Based Filtering
+    A mix of the two
+
+    If you want assistance with design, here at Evolytics we can leverage our experience from our big name clients and their successes...
+
+    Now if you do just want to target the premier line only, we can weight the premier line to show up more often in the recommended, or we can make a model to predict users that are more likely to take the upsell. To do that, effectively we need more data, let's take a look at the limitations of the current dataset....
 2. Include limitations of the current data set
-    * It would be good to have the control group stats to verify the mean and standard deviations line up with our test group
+    * It would be good to have the control group stats to verify the mean and standard deviations line up with our test group. make sure done randomly
     * Small error in the dataset key. 'Purchase Product' 1-4 says null if > x products purchased. It should say < x
     * Data is only from a couple months in two years, can't see seasonality well
+    * Need all user data and product meta data to build the most efficient model for recommendations and everything else, whether this user would respond to coupons
+
+    with that though here's what I found: vis, models not great but can produce the users with the highest probs. If you wanted to lessen the blow to conversions, you could send the message to only those who are more likely to respond favorably--this is a balancing act and will require you to choose a threshold. Again, with better data I could make a more competent model but here's the process.
+
+    I heard that you often use Alteryx in your business so I picked it up and made a prototype app that you can play with.
+
+    Summary: Reduce obtrusiveness of message. Investigate more comprehensive recommendation system. Expand data management/engineering. Profit!
 3. Include an appendix with assumptions, methods and relevant statistical output
     * SEM is paid ad search result, SEO is organic search result
 
