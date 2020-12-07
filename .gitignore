@@ -130,3 +130,9 @@ dmypy.json
 
 # excel
 ~$Evolytics Data Science Exercise.xlsx
+
+# ppt
+~$outdoor_slides.pptx
+
+# Alteryx
+outdoor_workflow.bak
