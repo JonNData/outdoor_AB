@@ -61,3 +61,10 @@ Deliverables
     * * careful what you may be able to predict on, you can't decide to administer the B-test after using factors from your B-test
 4. potential alteryx, app
 5. work on presentation
+
+Project setup at start, eexplain target. This is what i would do in that situation, what skills you used to be positive. Result focused structure.
+Deep dive in job description for behavior questions. take initiative to say hi
+
+These are the things that would make this an easy yes. Since i'm not in missouri, is there an option to stay remote, maybe travel once a month. One bucket, not constantly.
+
+have questions prepared. Blog . why do you want to work here

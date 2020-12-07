@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from joblib import load
 
 app = FastAPI()
 
@@ -8,16 +9,17 @@ async def root():
     return {"message": "Outdoor Retailer API"}
 
 @app.post('/predict')
-def predict(make:str="Ford", model:str="F150 Pickup 4WD", year:int=2005):
+def predict(
+    day_of_week:int=1, hour:int=10, visit_day:int=29, visit_num:int=1,
+    First_Visit:int=1, IPD:int=0, operating_system_family:str='Windows 7',
+    browser_family:str='Chrome', user_State:str='KS', 
+    pageviews_before_popup:int=6, time_before_popup:float=0.0041,
+    hits_before_popup:int=13, loyalty_user:bool=False
+):
     """
     Predict price based on year, manufacturer, model
     """
-    manufacturer = make
-    manufacturer = manufacturer.lower()
-    model_lower = model.lower()
-
-    # use fuzzy wuzzy to get the closest match
-    model_fz = process.extractOne(model_lower, cl_models, scorer=fuzz.token_sort_ratio)[0]
+    
     
     input = pd.DataFrame({
         "year": [year],
