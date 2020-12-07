@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Evolytics Data Science Exercise.xlsx
+Query=`Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="source_visitor_id" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="visit_num" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="First_Visit" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="date" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Date" />
+            <Field name="min_timestamp_date" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Date" />
+            <Field name="min_timestamp_time" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Time" />
+            <Field name="max_timestamp" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="DateTime" />
+            <Field name="Recipe" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="no_thanks_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="yes_upgrade_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="upgrade_and_purchase" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="hit either yes or no" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="purchase_product_1" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_product_2" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_product_3" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_product_4" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_units_product_1" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_units_product_2" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_units_product_3" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_units_product_4" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_revenue_product_1" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_revenue_product_2" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_revenue_product_3" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="purchase_revenue_product_4" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="IPD vs NonIPD" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="IPD" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="operating_system_family" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="browser_family" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="user_State" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="camp_page_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="hiking__page_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="kayak_page_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="run_page_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="deals_page_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="winter_page_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="snow_page_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="socks+hiking_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="login_page_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="review_order_flag" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="pageviews_before_popup" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="date2" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Date" />
+            <Field name="upsell_timestamp_date" size="255" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="V_String" />
+            <Field name="upsell_timestamp_time" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Time" />
+            <Field name="time_before_popup" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="hits_before_popup" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_Android" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_Chrome_OS" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_iOS" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_Linux" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_Mac OS X" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_Ubuntu" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_Windows 10" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_Windows_7" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_Windows8" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_Windows_8.1" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_Windows_Vista" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="OpS_Windows_XP" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="Test" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="AOL_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="AppleMail_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="Chrome_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="Chrome_Mobile_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="Chrome_Mobile_iOS_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="Edge_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="Firefox_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="IE_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="Mobile_Safari_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="Opera_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="Other_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="Safari_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="SeaMonkey_Browser" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="Test2" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="landpage-hiking" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="landpage camping" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="landpage run" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="loyalty_user" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Bool" />
+            <Field name="landpage winter" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="SEO" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+            <Field name="SEM" source="File: C:\Users\jonma\Programming\outdoor_AB\data\Evolytics Data Science Exercise.xlsx|||`Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="First_Visit" selected="True" type="Bool" size="1" />
+            <SelectField field="purchase_flag" selected="True" type="Bool" size="1" />
+            <SelectField field="yes_upgrade_flag" selected="True" type="Bool" size="1" />
+            <SelectField field="upgrade_and_purchase" selected="True" type="String" size="19" />
+            <SelectField field="hit either yes or no" selected="True" type="String" size="19" />
+            <SelectField field="user_State" selected="True" type="SpatialObj" size="536870911" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="366" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="upgrade_and_purchase" action="GroupBy" rename="upgrade_and_purchase" />
+            <SummarizeField field="source_visitor_id" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jonma\AppData\Local\Temp\Engine_16756_859f697a6f2e42b985c620fa0c9f5331_\Engine_9716_01873adfd90a48dba0a9022be60c2ab1_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="366" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="field">time_before_popup</Value>
+          <Value name="group">True</Value>
+          <Value name="group var">upgrade_and_purchase</Value>
+          <Value name="plot.title" />
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">3x</Value>
+          <Value name="pointsize">18</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Violin_Plot.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jonma\AppData\Local\Temp\Engine_16756_859f697a6f2e42b985c620fa0c9f5331_\Engine_9716_65d54baff5df4990b7ad58c2415059e1_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings>
+        <Position x="366" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="field">pageviews_before_popup</Value>
+          <Value name="notauto">False</Value>
+          <Value name="breaks">20</Value>
+          <Value name="density">False</Value>
+          <Value name="scale">1.0</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Histogram.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jonma\AppData\Local\Temp\Engine_16756_859f697a6f2e42b985c620fa0c9f5331_\Engine_9716_8da6d54f819d4aa5bf4e8a865103ee88_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Graph Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>outdoor_workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
