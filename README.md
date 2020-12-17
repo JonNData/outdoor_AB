@@ -68,3 +68,7 @@ Deep dive in job description for behavior questions. take initiative to say hi
 These are the things that would make this an easy yes. Since i'm not in missouri, is there an option to stay remote, maybe travel once a month. One bucket, not constantly.
 
 have questions prepared. Blog . why do you want to work here
+
+Reflection:
+Presentation went excellently, the demonstration of new technologies left a good impression, but the star was the holistic view and approach--showing the competitor research. 3 pronged approach was very effective.  
+However, the division of suggestions could have been more clearly represented as well as the research/evidence for the main recommendation. 

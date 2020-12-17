@@ -363,8 +363,9 @@ Query=`Data$`</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Graph Output">
           <RecordInfo>
-            <Field name="Graph" size="1073741823" source="Report:R-Graph:" type="V_WString" />
+            <Field name="Graph" size="536870911" source="Report:R-Graph:" type="V_WString" />
           </RecordInfo>
+          <ForceUpdate />
         </MetaInfo>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Violin_Plot.yxmc" />
